@@ -7,6 +7,8 @@ public class OrderPage {
 		
 		int i =10;
 		int p = 30;
+		
+		String n = "testing";
 	}
 
 }
