@@ -53,6 +53,13 @@ public class LoginPageTest extends BaseTest{
 	
 	@Description("checking naveen test")
 	@Severity(SeverityLevel.MINOR)
+	@Test(priority = 6)
+	public void sanityTest() {
+		Assert.assertEquals(true, true);
+	}
+	
+	@Description("checking naveen test")
+	@Severity(SeverityLevel.MINOR)
 	@Test(priority = 5,enabled = false)
 	public void naveenTest() {
 		Assert.assertEquals(true, false);
