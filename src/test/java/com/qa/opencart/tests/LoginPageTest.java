@@ -51,11 +51,11 @@ public class LoginPageTest extends BaseTest{
 		
 		}
 	
-	//@Description("checking naveen test")
-	//@Severity(SeverityLevel.MINOR)
-	//@Test(priority = 5)
-//	public void naveenTest() {
-//		Assert.assertEquals(true, false);
-//	}
+	@Description("checking naveen test")
+	@Severity(SeverityLevel.MINOR)
+	@Test(priority = 5,enabled = false)
+	public void naveenTest() {
+		Assert.assertEquals(true, false);
+	}
 
 }
