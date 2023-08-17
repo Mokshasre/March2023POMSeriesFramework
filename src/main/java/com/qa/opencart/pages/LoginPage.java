@@ -22,7 +22,7 @@ public class LoginPage {
 	//private By registerLink = By.xpath("//aside[@id='column-right']//a[text()='Register']");
 	private By registerLink =  By.linkText("Register");
 	//private By sravaniLink =  By.linkText("sravani");	
-	private By home =  By.linkText("home");	
+	
 	
 	//2.public page constructor
 	public LoginPage(WebDriver driver)
